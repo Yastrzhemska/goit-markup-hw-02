@@ -3,6 +3,8 @@
     --secondary-font: 'Raleway', sans-serif;
     --accent-color: #404BBF;
     --primary-text-color:#434455;
+    --logo-color-first: #4d5ae5;
+    --logo-color-second: #2E2F42;
 
 }
 
@@ -16,7 +18,7 @@
 
 body {
     font-family: var(--primary-font);
-    color: 
+    color: var(--primary-text-color);
 }
 
 /* Header */
@@ -25,16 +27,16 @@ body {
     font-family: var(--secondary-font);
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.33;
+    line-height: 1.17;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: var(--logo-color-first);
 }
 
-.first-logo {
-    color: #4D5AE5;
+.logo-studio {
+     color: var(--logo-color-second);
 }
 
 .nav-link {
@@ -58,12 +60,16 @@ body {
     color: var(--primary-text-color);
 }
 
-.mail:hover,
-.mail:focus {
+.contact-link:hover,
+.contact-link:focus {
     color: var(--accent-color);
 }
 
 /* Hero */
+
+.hero {
+    background-color: var(--logo-color-second);
+}
 
 .main-head {
     font-weight: 700;
@@ -71,10 +77,11 @@ body {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    /* color: #FFFFFF; */
+    color: #FFFFFF;
 }
 
 .modal-btn {
+    font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -102,7 +109,6 @@ body {
 }
 
 .text-about-item {
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -144,6 +150,10 @@ body {
 
 /* Footer */
 
+.footer{
+    background-color: var(--logo-color-second);
+}
+
 .logo-footer {
     font-family: var(--secondary-font);
     font-weight: 800;
@@ -167,6 +177,7 @@ body {
 /* portfolio page */
 
 .menu-btn-portfolio {
+    font-family: var(--primary-font)
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -190,7 +201,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--logo-color-second);
 }
 
 .text-list-portfolio {
@@ -199,4 +210,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em; 
     color: var(--primary-text-color);
+}
+
+.logo-footer {
+    color: #F4F4FD;
 }
