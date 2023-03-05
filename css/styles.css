@@ -52,8 +52,10 @@ body {
     color: var(--accent-color);
 }
 
-.contact-link {
+.contact{
     font-style: normal;
+}
+.contact-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
