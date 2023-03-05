@@ -5,6 +5,9 @@
     --primary-text-color:#434455;
     --logo-color-first: #4d5ae5;
     --logo-color-second: #2E2F42;
+    --text-footer: #E7E9FC;
+    --color-studiofooter-btnprof: #F4F4FD;
+    --color-white-text: #FFFFFF;
 
 }
 
@@ -44,7 +47,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--logo-color-second);
 }
 
 .nav-link:hover,
@@ -80,7 +83,7 @@ body {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--color-white-text);
 }
 
 .modal-btn {
@@ -88,12 +91,10 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
     cursor: pointer;
-    background: #4D5AE5;
-    color: #FFFFFF;
+    background: var(--logo-color-first);
+    color: var(--color-white-text);
 }
 
 .modal-btn:hover,
@@ -108,7 +109,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--logo-color-second);
 }
 
 .text-about-item {
@@ -128,7 +129,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--logo-color-second);
 }
 
 /* Our Team */
@@ -139,7 +140,7 @@ body {
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--logo-color-second);
 }
 
 .text-team {
@@ -162,11 +163,9 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;
+    color: var(--color-studiofooter-btnprof);
 }
 
 .text-footer {
@@ -174,7 +173,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #E7E9FC;
+    color: var(--text-footer);
 }
 
 /* portfolio page */
@@ -184,18 +183,15 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.04em;
     cursor: pointer;
-    color: #4D5AE5;
-    background: #F4F4FD;
+    color: var(--logo-color-first);
+    background: var(--color-studiofooter-btnprof);
 }
 
 .menu-btn-portfolio:hover,
 .menu-btn-portfolio:focus {
-    color: #FFFFFF;
+    color: var(--color-white-text);
     background: var(--accent-color);
 }
 
@@ -216,5 +212,5 @@ body {
 }
 
 .logo-footer {
-    color: #F4F4FD;
+    color: var(--color-studiofooter-btnprof);
 }
